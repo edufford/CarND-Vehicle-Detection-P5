@@ -1,0 +1,3 @@
+Download Udacity provided data set and place in this folder.
+
+https://s3.amazonaws.com/udacity-sdc/Vehicle_Tracking/non-vehicles.zip
