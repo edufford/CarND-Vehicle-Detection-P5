@@ -10,11 +10,11 @@ This project detects vehicles in a camera's images of driving by using a **linea
 
 ## Key Files
 
-| File 										|     Description	        													| 
-|:-----------------------------------------:|:-----------------------------------------------------------------------------:| 
-| P5_VehicleDetection.ipynb					| IPython notebook with all project code 										| 
-| writeup_P5.md								| The project writeup explaining the results									|
-| /output_images/project_video_final.mp4	| Output video of vehicle detection result with lane finding from Project #4	|
+| File 										|     Description	        												| 
+|:-----------------------------------------:|:-------------------------------------------------------------------------:| 
+| P5_VehicleDetection.ipynb					| IPython notebook with all project code 									| 
+| writeup_P5.md								| The project writeup explaining the results								|
+| /output_images/project_video_final.mp4	| Output video of vehicle detection result also including lane detection	|
 
 
 ## How to Run Code
@@ -23,6 +23,6 @@ This project detects vehicles in a camera's images of driving by using a **linea
 
 2. Set up [fast-histogram](https://github.com/astrofrog/fast-histogram) Python package that provides ~10x faster performance than np.histogram().
 
-3. Download the Udacity-provided image data sets for [vehicles](https://s3.amazonaws.com/udacity-sdc/Vehicle_Tracking/vehicles.zip) and [non-vehicles](https://s3.amazonaws.com/udacity-sdc/Vehicle_Tracking/non-vehicles.zip) into the /data/vehicles/ and /data/non-vehicles/ folders.
+3. Download the Udacity-provided image data sets for [vehicles](https://s3.amazonaws.com/udacity-sdc/Vehicle_Tracking/vehicles.zip) and [non-vehicles](https://s3.amazonaws.com/udacity-sdc/Vehicle_Tracking/non-vehicles.zip) and extract into the /data/vehicles/ and /data/non-vehicles/ folders.
 
 4. Open the IPython notebook "P5_VehicleDetection.ipynb" using Jupyter, and execute all cells.
